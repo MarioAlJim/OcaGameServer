@@ -1,0 +1,34 @@
+C:\Users\Mario Jimenez\source\repos\OcaHost\bin\Debug\OcaHost.exe.config
+C:\Users\Mario Jimenez\source\repos\OcaHost\bin\Debug\OcaHost.exe
+C:\Users\Mario Jimenez\source\repos\OcaHost\bin\Debug\OcaHost.pdb
+C:\Users\Mario Jimenez\source\repos\OcaHost\bin\Debug\OcaWCF.dll
+C:\Users\Mario Jimenez\source\repos\OcaHost\bin\Debug\OcaWCF.pdb
+C:\Users\Mario Jimenez\source\repos\OcaHost\bin\Debug\OcaWCF.dll.config
+C:\Users\Mario Jimenez\source\repos\OcaHost\obj\Debug\OcaHost.csproj.AssemblyReference.cache
+C:\Users\Mario Jimenez\source\repos\OcaHost\obj\Debug\OcaHost.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mario Jimenez\source\repos\OcaHost\obj\Debug\OcaHost.csproj.CoreCompileInputs.cache
+C:\Users\Mario Jimenez\source\repos\OcaHost\obj\Debug\OcaHost.csproj.CopyComplete
+C:\Users\Mario Jimenez\source\repos\OcaHost\obj\Debug\OcaHost.exe
+C:\Users\Mario Jimenez\source\repos\OcaHost\obj\Debug\OcaHost.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaHost.exe.config
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaHost.exe
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaHost.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaWCF.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaBussinessLogic.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaDataAccess.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\EntityFramework.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaWCF.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaWCF.dll.config
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaBussinessLogic.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaBussinessLogic.dll.config
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaDataAccess.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\OcaDataAccess.dll.config
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\EntityFramework.xml
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\obj\Debug\OcaHost.csproj.AssemblyReference.cache
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\obj\Debug\OcaHost.csproj.SuggestedBindingRedirects.cache
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\obj\Debug\OcaHost.csproj.CoreCompileInputs.cache
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\obj\Debug\OcaHost.csproj.CopyComplete
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\obj\Debug\OcaHost.exe
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\obj\Debug\OcaHost.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaHost\bin\Debug\EntityFramework.SqlServer.xml

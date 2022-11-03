@@ -1,0 +1,54 @@
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\OcaGame.exe.config
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\OcaGame.exe
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\OcaGame.pdb
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\EntityFramework.dll
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\EntityFramework.xml
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame.csproj.AssemblyReference.cache
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\MainWindow.g.cs
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\App.g.cs
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame_MarkupCompile.cache
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame_MarkupCompile.lref
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\MainWindow.baml
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame.g.resources
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame.Properties.Resources.resources
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame.csproj.GenerateResource.cache
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame.csproj.CoreCompileInputs.cache
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame.csproj.CopyComplete
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame.exe
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\OcaGame.pdb
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\MainMenu.g.cs
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\OcaBussinessLogic.dll
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\OcaDataAccess.dll
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\OcaBussinessLogic.pdb
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\OcaBussinessLogic.dll.config
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\OcaDataAccess.pdb
+C:\Users\Mario Jimenez\source\repos\OcaGame\bin\Debug\OcaDataAccess.dll.config
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\MainMenu.baml
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\SignUp.g.cs
+C:\Users\Mario Jimenez\source\repos\OcaGame\obj\Debug\SignUp.baml
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\OcaGame.exe.config
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\OcaGame.exe
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\OcaGame.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\EntityFramework.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\OcaBussinessLogic.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\OcaDataAccess.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\OcaBussinessLogic.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\OcaBussinessLogic.dll.config
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\OcaDataAccess.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\OcaDataAccess.dll.config
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\EntityFramework.xml
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\obj\Debug\OcaGame.csproj.AssemblyReference.cache
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\obj\Debug\OcaGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\obj\Debug\App.g.cs
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\obj\Debug\OcaGame_MarkupCompile.cache
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\obj\Debug\OcaGame.Properties.Resources.resources
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\obj\Debug\OcaGame.csproj.GenerateResource.cache
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\obj\Debug\OcaGame.csproj.CoreCompileInputs.cache
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\obj\Debug\OcaGame.csproj.CopyComplete
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\obj\Debug\OcaGame.exe
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaGame\obj\Debug\OcaGame.pdb

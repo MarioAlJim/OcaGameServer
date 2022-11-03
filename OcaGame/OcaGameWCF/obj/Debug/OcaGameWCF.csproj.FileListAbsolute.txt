@@ -1,0 +1,15 @@
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\bin\Debug\OcaGameWCF.dll
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\bin\Debug\OcaGameWCF.pdb
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\bin\Debug\OcaBussinessLogic.dll
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\bin\Debug\OcaDataAccess.dll
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\bin\Debug\EntityFramework.dll
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\bin\Debug\OcaBussinessLogic.pdb
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\bin\Debug\OcaBussinessLogic.dll.config
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\bin\Debug\OcaDataAccess.pdb
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\bin\Debug\OcaDataAccess.dll.config
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\bin\Debug\EntityFramework.xml
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\obj\Debug\OcaGameWCF.csproj.AssemblyReference.cache
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\obj\Debug\OcaGameWCF.csproj.CoreCompileInputs.cache
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\obj\Debug\OcaGameWCF.csproj.CopyComplete
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\obj\Debug\OcaGameWCF.dll
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto-Tecnologias\OcaGame\OcaGameWCF\obj\Debug\OcaGameWCF.pdb

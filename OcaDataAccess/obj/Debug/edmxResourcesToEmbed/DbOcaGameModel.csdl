@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OcaDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Friend">
+    <Key>
+      <PropertyRef Name="IdFriend" />
+    </Key>
+    <Property Name="IdFriend" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUser" Type="Int32" />
+    <Property Name="IdUserFriend" Type="Int32" />
+    <NavigationProperty Name="User" Relationship="Self.FK__Friends__IdUser__5165187F" FromRole="Friends" ToRole="Users" />
+    <NavigationProperty Name="User1" Relationship="Self.FK__Friends__IdUserF__52593CB8" FromRole="Friends" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="IdPerson" />
+    </Key>
+    <Property Name="IdPerson" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="surname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="Int32" />
+    <Property Name="IdUser" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_dbo_People_dbo_Users_IdUser" FromRole="People" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="IdReport" />
+    </Key>
+    <Property Name="IdReport" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="typeReport" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="IdUser" Type="Int32" />
+    <NavigationProperty Name="User" Relationship="Self.FK__Reports__IdUser__49C3F6B7" FromRole="Reports" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="IdUser" />
+    </Key>
+    <Property Name="IdUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nickname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Valid" Type="Boolean" />
+    <Property Name="Experience" Type="Int32" />
+    <Property Name="Online" Type="Boolean" />
+    <NavigationProperty Name="Friends" Relationship="Self.FK__Friends__IdUser__5165187F" FromRole="Users" ToRole="Friends" />
+    <NavigationProperty Name="Friends1" Relationship="Self.FK__Friends__IdUserF__52593CB8" FromRole="Users" ToRole="Friends" />
+    <NavigationProperty Name="People" Relationship="Self.FK_dbo_People_dbo_Users_IdUser" FromRole="Users" ToRole="People" />
+    <NavigationProperty Name="Reports" Relationship="Self.FK__Reports__IdUser__49C3F6B7" FromRole="Users" ToRole="Reports" />
+  </EntityType>
+  <Association Name="FK__Friends__IdUser__5165187F">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Friends" Type="Self.Friend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="Friends">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Friends__IdUserF__52593CB8">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Friends" Type="Self.Friend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="Friends">
+        <PropertyRef Name="IdUserFriend" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_People_dbo_Users_IdUser">
+    <End Role="Users" Type="Self.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="People" Type="Self.Person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="People">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reports__IdUser__49C3F6B7">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Reports" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="Reports">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OcaDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Friends" EntityType="Self.Friend" />
+    <EntitySet Name="People" EntityType="Self.Person" />
+    <EntitySet Name="Reports" EntityType="Self.Report" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK__Friends__IdUser__5165187F" Association="Self.FK__Friends__IdUser__5165187F">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Friends" EntitySet="Friends" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Friends__IdUserF__52593CB8" Association="Self.FK__Friends__IdUserF__52593CB8">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Friends" EntitySet="Friends" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_People_dbo_Users_IdUser" Association="Self.FK_dbo_People_dbo_Users_IdUser">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="People" EntitySet="People" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reports__IdUser__49C3F6B7" Association="Self.FK__Reports__IdUser__49C3F6B7">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Reports" EntitySet="Reports" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

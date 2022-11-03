@@ -1,0 +1,100 @@
+Use OcaDB;
+
+CREATE TABLE [dbo].[Users] (
+        [IdUser] [int] NOT NULL IDENTITY(1,1),
+        [Nickname] [nvarchar](max) NOT NULL,
+        [Password] [nvarchar](max) NOT NULL,
+        [Valid] [bit],
+        [Experience] [int],
+        [Online] [bit],
+        CONSTRAINT [PK_dbo.Users] PRIMARY KEY ([IdUser])
+    )
+    
+    CREATE TABLE [dbo].[People] (
+        [IdPerson] [int] NOT NULL IDENTITY(1,1),
+        [Name] [nvarchar](max),
+        [surname] [nvarchar](max),
+        [Email] [nvarchar](max),
+        [PhoneNumber] [int],
+        [IdUser] [int] NOT NULL,
+        CONSTRAINT [PK_dbo.People] PRIMARY KEY ([IdPerson])
+    )
+    
+    CREATE INDEX [IX_IdUser] ON [dbo].[People]([IdPerson])
+
+    ALTER TABLE [dbo].[People] ADD CONSTRAINT [FK_dbo.People_dbo.Users_IdUser] 
+    FOREIGN KEY ([IdUser]) REFERENCES [dbo].[Users] ([IdUser]) ON DELETE CASCADE
+
+CREATE TABLE Reports (
+  IdReport INTEGER IDENTITY(1,1) PRIMARY KEY, 
+  typeReport TEXT, 
+  IdUser INTEGER,
+  FOREIGN KEY(IdUser) REFERENCES Users(IdUser) ON DELETE CASCADE
+);
+
+
+CREATE TABLE Friends (
+  IdUser INTEGER, 
+  IdFriend INTEGER,
+  FOREIGN KEY(IdUser) REFERENCES Users(IdUser) ON DELETE CASCADE,
+  FOREIGN KEY(IdFriend) REFERENCES Users(IdUser)
+);
+	
+
+USE [OcaDB]
+
+INSERT INTO [dbo].[Users]
+           ([Nickname]
+           ,[Password]
+           ,[Valid]
+           ,[Experience]
+           ,[Online])
+     VALUES
+           ('Silverwolf'
+           ,'01042001'
+           ,1
+           ,100
+           ,0)
+GO
+
+INSERT INTO [dbo].[People]
+           ([Name]
+           ,[surname]
+           ,[Email]
+           ,[PhoneNumber]
+           ,[IdUser])
+     VALUES
+           ('Mario'
+           ,'Jimenez'
+           ,'mario.aljim14@gmail.com'
+           ,1094441
+           ,1)
+GO
+
+INSERT INTO [dbo].[Users]
+           ([Nickname]
+           ,[Password]
+           ,[Valid]
+           ,[Experience]
+           ,[Online])
+     VALUES
+           ('ValeXD'
+           ,'01042001'
+           ,1
+           ,100
+           ,0)
+GO
+
+INSERT INTO [dbo].[People]
+           ([Name]
+           ,[surname]
+           ,[Email]
+           ,[PhoneNumber]
+           ,[IdUser])
+     VALUES
+           ('Valeria'
+           ,'Abdala'
+           ,'valeriaAb@gmail.com'
+           ,1094441
+           ,8)
+GO

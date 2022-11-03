@@ -1,0 +1,11 @@
+Primer paquete: proyecto de consola, toma el contrato y lo pone en la red
+la forma de nombrar interfaces debe estar en el estandar 
+[ServiceContract] hace referencia a una interfaz 
+Todos lo metodos que se deban subir a la red se deben marcar con [Operationcontract]
+[DataContract] miembros de una clase a transferir
+[Datamenber] Atributos de una clase 
+
+
+
+2do paquete: paquete de WCF
+

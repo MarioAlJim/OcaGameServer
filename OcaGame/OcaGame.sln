@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcaDataAccess", "..\OcaDataAccess\OcaDataAccess.csproj", "{8DDF84A0-BE7D-43D4-B0BA-3902C9E4EEDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcaBussinessLogic", "..\OcaBussinessLogic\OcaBussinessLogic.csproj", "{C4D89691-210C-45AB-A61F-F739D8C4432A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcaWCF", "..\OcaWCF\OcaWCF.csproj", "{B307BB51-D547-4F60-988A-60CEE807426F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcaHost", "..\OcaHost\OcaHost.csproj", "{293D3B4D-498A-4CFE-BE37-3B904BD03836}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DDF84A0-BE7D-43D4-B0BA-3902C9E4EEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDF84A0-BE7D-43D4-B0BA-3902C9E4EEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDF84A0-BE7D-43D4-B0BA-3902C9E4EEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDF84A0-BE7D-43D4-B0BA-3902C9E4EEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D89691-210C-45AB-A61F-F739D8C4432A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D89691-210C-45AB-A61F-F739D8C4432A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D89691-210C-45AB-A61F-F739D8C4432A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D89691-210C-45AB-A61F-F739D8C4432A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B307BB51-D547-4F60-988A-60CEE807426F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B307BB51-D547-4F60-988A-60CEE807426F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B307BB51-D547-4F60-988A-60CEE807426F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B307BB51-D547-4F60-988A-60CEE807426F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293D3B4D-498A-4CFE-BE37-3B904BD03836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293D3B4D-498A-4CFE-BE37-3B904BD03836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293D3B4D-498A-4CFE-BE37-3B904BD03836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293D3B4D-498A-4CFE-BE37-3B904BD03836}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {930ED184-FCD0-44AF-9611-F022B511B8A6}
+	EndGlobalSection
+EndGlobal

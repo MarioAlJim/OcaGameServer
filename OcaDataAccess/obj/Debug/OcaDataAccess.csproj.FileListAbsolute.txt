@@ -1,0 +1,24 @@
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\bin\Debug\OcaDataAccess.dll.config
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\bin\Debug\OcaDataAccess.dll
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\bin\Debug\OcaDataAccess.pdb
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\obj\Debug\OcaDataAccess.csproj.AssemblyReference.cache
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\obj\Debug\OcaDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\obj\Debug\OcaDataAccess.csproj.CopyComplete
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\obj\Debug\OcaDataAccess.dll
+C:\Users\Mario Jimenez\source\repos\OcaDataAccess\obj\Debug\OcaDataAccess.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\bin\Debug\OcaDataAccess.dll.config
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\bin\Debug\OcaDataAccess.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\bin\Debug\OcaDataAccess.pdb
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\obj\Debug\OcaDataAccess.csproj.AssemblyReference.cache
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\obj\Debug\OcaDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\obj\Debug\OcaDataAccess.csproj.CopyComplete
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\obj\Debug\OcaDataAccess.dll
+C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaDataAccess\obj\Debug\OcaDataAccess.pdb
