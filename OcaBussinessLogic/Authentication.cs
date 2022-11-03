@@ -10,9 +10,9 @@ namespace OcaBussinessLogic
         {
         }
 
-        public User login(string userName, string password)
+        public Users login(string userName, string password)
         {
-            User user = new User();
+            Users user = new Users();
             using (var context = new OcaDBEntities())
             {
                 int userCont = (from Users in context.Users

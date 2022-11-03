@@ -65,9 +65,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OcaWCF\OcaWCF.csproj">
-      <Project>{b307bb51-d547-4f60-988a-60cee807426f}</Project>
-      <Name>OcaWCF</Name>
+    <ProjectReference Include="..\OcaGame\OcaGameWCF\OcaGameWCF.csproj">
+      <Project>{cb94ee48-b76a-4079-a0f3-7f5dbff4ee3c}</Project>
+      <Name>OcaGameWCF</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
