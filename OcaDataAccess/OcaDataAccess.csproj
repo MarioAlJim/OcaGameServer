@@ -35,10 +35,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\OcaGame\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\OcaGame\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\OcaGame\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\OcaGame\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -53,60 +53,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbOcaGameModel.Context.cs">
+    <Compile Include="Friends.cs">
+      <DependentUpon>GameOcaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GameOcaModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DbOcaGameModel.Context.tt</DependentUpon>
+      <DependentUpon>GameOcaModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="DbOcaGameModel.cs">
+    <Compile Include="GameOcaModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DbOcaGameModel.tt</DependentUpon>
+      <DependentUpon>GameOcaModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DbOcaGameModel.Designer.cs">
+    <Compile Include="GameOcaModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DbOcaGameModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Friend.cs">
-      <DependentUpon>DbOcaGameModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Person.cs">
-      <DependentUpon>DbOcaGameModel.tt</DependentUpon>
+      <DependentUpon>GameOcaModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Report.cs">
-      <DependentUpon>DbOcaGameModel.tt</DependentUpon>
+    <Compile Include="Reports.cs">
+      <DependentUpon>GameOcaModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="User.cs">
-      <DependentUpon>DbOcaGameModel.tt</DependentUpon>
+    <Compile Include="Users.cs">
+      <DependentUpon>GameOcaModel.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="DbOcaGameModel.edmx">
+    <EntityDeploy Include="GameOcaModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DbOcaGameModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>GameOcaModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="DbOcaGameModel.edmx.diagram">
-      <DependentUpon>DbOcaGameModel.edmx</DependentUpon>
+    <None Include="GameOcaModel.edmx.diagram">
+      <DependentUpon>GameOcaModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Friends1.datasource" />
     <None Include="Properties\DataSources\OcaDBEntities.datasource" />
+    <None Include="Properties\DataSources\Reports1.datasource" />
+    <None Include="Properties\DataSources\Users1.datasource" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DbOcaGameModel.Context.tt">
+    <Content Include="GameOcaModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DbOcaGameModel.edmx</DependentUpon>
-      <LastGenOutput>DbOcaGameModel.Context.cs</LastGenOutput>
+      <LastGenOutput>GameOcaModel.Context.cs</LastGenOutput>
+      <DependentUpon>GameOcaModel.edmx</DependentUpon>
     </Content>
-    <Content Include="DbOcaGameModel.tt">
+    <Content Include="GameOcaModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DbOcaGameModel.edmx</DependentUpon>
-      <LastGenOutput>DbOcaGameModel.cs</LastGenOutput>
+      <DependentUpon>GameOcaModel.edmx</DependentUpon>
+      <LastGenOutput>GameOcaModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

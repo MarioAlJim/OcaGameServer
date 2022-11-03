@@ -11,9 +11,8 @@ namespace OcaHost
     {
         static void Main(string[] args)
         {
-            using (ServiceHost host = new ServiceHost(typeof(OcaWCF.Authentication)))
+            using (ServiceHost host = new ServiceHost(typeof(OcaGameWCF.OcaGameServices)))
             {
-
                 host.Open();
                 Console.WriteLine("Server is running");
                 Console.ReadLine();
