@@ -28,10 +28,6 @@ C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGam
 C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.csproj.CopyComplete
 C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.dll
 C:\Users\Valea\OneDrive - Universidad Veracruzana\5toSemestre\Tecnologias\OcaGameS\Proyecto-Tecnologias\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.pdb
-C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.csproj.AssemblyReference.cache
-C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.csproj.CoreCompileInputs.cache
-C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.dll
-C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.pdb
 C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\bin\Debug\OcaBussinessLogic.dll.config
 C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\bin\Debug\OcaBussinessLogic.dll
 C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\bin\Debug\OcaBussinessLogic.pdb
@@ -42,4 +38,8 @@ C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServ
 C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\bin\Debug\OcaDataAccess.dll.config
 C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\bin\Debug\EntityFramework.xml
 C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.csproj.AssemblyReference.cache
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.csproj.CoreCompileInputs.cache
 C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.csproj.CopyComplete
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.dll
+C:\Users\Mario Jimenez\Desktop\Semestre 5\Tecnologias\Proyecto Final\OcaGameServer\OcaBussinessLogic\obj\Debug\OcaBussinessLogic.pdb
