@@ -77,8 +77,8 @@ namespace OcaGameWCF
         }
 
         public int StartGame()
-        {
-            throw new NotImplementedException();
+        { 
+            return 1;
         }
     }
 
