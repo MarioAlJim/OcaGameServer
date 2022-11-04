@@ -1,15 +1,19 @@
-﻿using System;
+﻿using System.Runtime.Serialization;
+using System.ServiceModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Serialization;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace OcaGameWCF
 {
-    internal interface IGame
+    [ServiceContract]
+    public interface IGame
     {
+        [OperationContract]
         Game CreateGame(Game game);
+
+        [OperationContract]
         int StartGame();
     }
 
