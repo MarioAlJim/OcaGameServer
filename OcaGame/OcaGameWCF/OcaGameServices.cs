@@ -66,6 +66,7 @@ namespace OcaGameWCF
         }
     }
 
+} 
     public partial class OcaGameServices : IGame
     {
         public Game CreateGame(Game game)
