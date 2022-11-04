@@ -9,7 +9,7 @@ namespace OcaGameWCF
 {
     internal interface IGame
     {
-        int CreateGame(Game game);
+        Game CreateGame(Game game);
         int StartGame();
     }
 
@@ -17,12 +17,12 @@ namespace OcaGameWCF
     public class Game
     {
         [DataMember]
-        public int numberOfPlayers { get; set; }
+        public int NumberOfPlayers { get; set; }
         [DataMember]
-        public string turnTime { get; set; }
+        public string TurnTime { get; set; }
         [DataMember]
         public int Background { get; set; }
         [DataMember]
-        public string code { get; set; }
+        public int Code { get; set; }
     }
 }

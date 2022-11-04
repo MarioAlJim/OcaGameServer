@@ -11,8 +11,6 @@ using System.Text;
 namespace OcaGameWCF
 {
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Single, InstanceContextMode = InstanceContextMode.Single)]
-
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Service1" en el código y en el archivo de configuración a la vez.
     public partial class OcaGameServices : IAuthentication
     {
         public User login(string userName, string password)
@@ -65,6 +63,22 @@ namespace OcaGameWCF
                 item.Value.GetCallbackChannel<IChatClient>().RecieveMessage(answer);
             }
 
+        }
+    }
+
+    public partial class OcaGameServices : IGame
+    {
+        public Game CreateGame(Game game)
+        {
+            Random random = new Random();
+            int code = random.Next(100000, 200000);
+            game.Code = code;
+            return game;
+        }
+
+        public int StartGame()
+        {
+            throw new NotImplementedException();
         }
     }
 
