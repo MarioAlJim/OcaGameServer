@@ -63,7 +63,7 @@ namespace OcaGameWCF
 
     public partial class OcaGameServices : IEmail
     {
-        public int send(string receiver)
+        public int sendEmail(string receiver)
         {
             Random random = new Random();
             int number = random.Next(1000, 100000);
@@ -97,7 +97,23 @@ namespace OcaGameWCF
 
             return number;
         }
+
+        public User GetUserFromEmail(string email)
+        {
+            UsersAdministration ocaGameServices = new UsersAdministration();
+            OcaDataAccess.Users userAccount = ocaGameServices.GetUserFromEmail(email);
+            User user = new User();
+            if (userAccount.Nickname != null)
+            {
+                user.Nickname = userAccount.Nickname;               
+                user.IdUser = userAccount.IdUser;                                
+                user.Name = userAccount.Name;
+                user.Email = userAccount.Email;
+                user.Valid = userAccount.Valid;
+                user.Password = userAccount.Password;
+            }
+            return user;
+        }
+
     }
-
-
 }

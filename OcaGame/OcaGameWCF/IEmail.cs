@@ -11,6 +11,7 @@ namespace OcaGameWCF
     internal interface IEmail
     {
         [OperationContract]
-        int send(string email);
+        int sendEmail(string email);
+        User GetUserFromEmail(string email);
     }
 }
