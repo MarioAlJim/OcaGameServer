@@ -12,6 +12,7 @@ namespace OcaGameWCF
     {
         [OperationContract]
         int sendEmail(string email);
+        [OperationContract]
         User GetUserFromEmail(string email);
     }
 }

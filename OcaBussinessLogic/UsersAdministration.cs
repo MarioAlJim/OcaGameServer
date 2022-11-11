@@ -50,5 +50,13 @@ namespace OcaBussinessLogic
             return user;
         }
 
+        public bool RestorePassword(Users user)
+        {
+            using (var context = new OcaDBEntities())
+            {
+                var users ;
+                
+            }
+
     }
 }

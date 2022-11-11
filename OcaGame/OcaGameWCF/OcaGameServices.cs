@@ -35,6 +35,7 @@ namespace OcaGameWCF
             }
             return user;
         }
+        
     }
 
     public partial class OcaGameServices : IChatService
@@ -105,8 +106,8 @@ namespace OcaGameWCF
             User user = new User();
             if (userAccount.Nickname != null)
             {
-                user.Nickname = userAccount.Nickname;               
-                user.IdUser = userAccount.IdUser;                                
+                user.Nickname = userAccount.Nickname;
+                user.IdUser = userAccount.IdUser;
                 user.Name = userAccount.Name;
                 user.Email = userAccount.Email;
                 user.Valid = userAccount.Valid;
