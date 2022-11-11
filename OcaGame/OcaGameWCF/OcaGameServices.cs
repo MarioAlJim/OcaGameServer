@@ -66,7 +66,6 @@ namespace OcaGameWCF
         }
     }
 
-} 
     public partial class OcaGameServices : IGame
     {
         public Game CreateGame(Game game)
@@ -78,8 +77,8 @@ namespace OcaGameWCF
         }
 
         public int StartGame()
-        {
-            throw new NotImplementedException();
+        { 
+            return 1;
         }
     }
 
