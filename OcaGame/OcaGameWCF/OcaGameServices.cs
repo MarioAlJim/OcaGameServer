@@ -67,4 +67,17 @@ namespace OcaGameWCF
         }
     }
 
+    public partial class OcaGameServices : ILobbyService
+    {
+        public void Disconnect()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void JoinLobby(string nickname)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
 } 
