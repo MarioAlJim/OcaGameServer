@@ -14,5 +14,7 @@ namespace OcaGameWCF
         int sendEmail(string email);
         [OperationContract]
         User GetUserFromEmail(string email);
+        [OperationContract]
+        bool UpdatePassword(User user);
     }
 }

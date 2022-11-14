@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -50,13 +51,19 @@ namespace OcaBussinessLogic
             return user;
         }
 
-        public bool RestorePassword(Users user)
+        public bool UpdatePassword(Users user)
         {
+            
             using (var context = new OcaDBEntities())
-            {
-                var users ;
+            {               
+                var users = (from Users in context.Users
+                             where Users.Nickname == user.Nickname
+                             select Users).FirstOrDefault();                
+                users.Password = user.Password;
+                context.SaveChanges();  
                 
             }
-
+            return true;
+        }       
     }
 }

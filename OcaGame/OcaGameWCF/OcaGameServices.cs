@@ -116,5 +116,20 @@ namespace OcaGameWCF
             return user;
         }
 
+        public bool UpdatePassword(User user)
+        {
+
+            OcaDataAccess.Users userData = new OcaDataAccess.Users();
+            bool result = false;
+            UsersAdministration ocaGameServices = new UsersAdministration();
+            userData.Nickname = user.Nickname;
+            userData.IdUser = user.IdUser;
+            userData.Name = user.Name;
+            userData.Email = user.Email;
+            userData.Valid = user.Valid;
+            userData.Password = user.Password;
+            result = ocaGameServices.UpdatePassword(userData);
+            return result;
+        }
     }
 }
