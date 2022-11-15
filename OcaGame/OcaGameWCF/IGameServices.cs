@@ -8,14 +8,27 @@ using System.Text;
 namespace OcaGameWCF
 {
     [ServiceContract]
-    public interface IGame
+    public interface IGameServiceClient
+    {
+        [OperationContract(IsOneWay = true)]
+        void NewUserInLobby(string nickname);
+
+        [OperationContract(IsOneWay = true)]
+        void RecieveStartGame(int startGame);
+    }
+    [ServiceContract(CallbackContract = typeof(IGameServiceClient))]
+
+    public interface IGameServices
     {
         [OperationContract]
         Game CreateGame(Game game);
 
         [OperationContract]
-        int StartGame();
-    }
+        void AddMeToGame(string userName, int code);
+
+        [OperationContract]
+        bool LeaveGame(string userName);
+    } 
 
     [DataContract]
     public class Game
