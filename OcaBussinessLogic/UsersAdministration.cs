@@ -29,6 +29,41 @@ namespace OcaBussinessLogic
             return true;
         }
 
+                public Users GetUserFromEmail(string email)
+        {
+            Users user = new Users();
+            using (var context = new OcaDBEntities())
+            {
+                int userCont = (from Users in context.Users
+                                where Users.Email == email
+                                select Users).Count();
+
+                var users = (from Users in context.Users
+                             where Users.Email == email
+                             select Users).ToList();
+
+                if (userCont > 0)
+                {
+                    user = users.First();
+                }
+            }
+            return user;
+        }
+
+        public bool UpdatePassword(Users user)
+        {
+
+            using (var context = new OcaDBEntities())
+            {               
+                var users = (from Users in context.Users
+                             where Users.Nickname == user.Nickname
+                             select Users).FirstOrDefault();                
+                users.Password = user.Password;
+                context.SaveChanges();  
+
+            }
+            return true;
+        }
     }
 
 
