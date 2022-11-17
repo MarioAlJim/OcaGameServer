@@ -6,19 +6,46 @@ using System.Threading.Tasks;
 
 namespace OcaBussinessLogic
 {
-    public class Lobby
+    internal class Lobby
     {
-        public string[] usersInLobby = new string[6];
+        private string[] usersInLobby;
         private int numUsers = 0;
+        private int maxUsers;
 
-        public void addUser(string nickname)
+        public Lobby(int maxUsers)
         {
-            usersInLobby[numUsers] = nickname;
+            this.maxUsers = maxUsers ;
+            usersInLobby = new string[maxUsers];
         }
 
-        public void deleteUser(string nickname)
+        public int addUser(string newUser)
         {
-            for (int i = 0; i < numUsers) 
+            int result;
+            if (numUsers < maxUsers)
+            {
+                usersInLobby[numUsers] = newUser;
+                numUsers++;
+                result = 1;
+            } else
+            {
+                result = 0;
+            }
+
+            return result;
+        }
+
+        public int deleteUser(string deleteUser)
+        {
+            int result = 0;
+            for (int i = 0; i <= numUsers; i++)
+            {
+                if (usersInLobby[i] == deleteUser)
+                {
+                    usersInLobby[i] = "";
+                    result = 1;
+                }
+            }
+            return result;
         }
     }
 }
