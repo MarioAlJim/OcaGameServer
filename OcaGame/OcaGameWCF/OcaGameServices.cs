@@ -53,7 +53,7 @@ namespace OcaGameWCF
 
         public void SendMessage(string message, string identifier)
         {
-            var connection = OperationContext.Current.GetCallbackChannel<IChatClient>();
+           // var connection = OperationContext.Current.GetCallbackChannel<IChatClient>();
             foreach (var item in UsersChat)
             {
                 string answer = DateTime.Now.ToShortTimeString();
