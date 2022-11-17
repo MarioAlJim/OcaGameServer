@@ -36,7 +36,7 @@ namespace OcaGameWCF
         [DataMember]
         public int NumberOfPlayers { get; set; }
         [DataMember]
-        public string TurnTime { get; set; }
+        public int TurnTime { get; set; }
         [DataMember]
         public int Background { get; set; }
         [DataMember]

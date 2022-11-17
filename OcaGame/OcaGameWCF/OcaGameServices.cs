@@ -44,7 +44,6 @@ namespace OcaGameWCF
 
     public partial class OcaGameServices : IChatService
     {
-        int nextId = 1;
         ConcurrentDictionary<String, OperationContext> UsersChat = new ConcurrentDictionary<String, OperationContext>();
         public void Join(string nickname)
         {
@@ -66,20 +65,49 @@ namespace OcaGameWCF
         }
     }
 
-    public partial class OcaGameServices : IGame
+    public partial class OcaGameServices : IGameServices
     {
+        ConcurrentDictionary<int, CallbackGameService> lobbys = new ConcurrentDictionary<int, CallbackGameService>();
+        ConcurrentDictionary<string, CallbackGameService> usersGame = new ConcurrentDictionary<string, CallbackGameService>();
+        private void createLobby (int code)
+        {
+            CallbackGameService gameCallbackService = new CallbackGameService();
+            lobbys.TryAdd(code, gameCallbackService);
+        }
+
+        public void AddMeToGame(string nickname, int code)
+        { 
+            bool joinResult = false;
+            usersGame.TryAdd(nickname, OperationContext.Current);
+            try
+            {
+
+                CallbackGameService callback = lobbys[code];
+                callback.NewUserInLobby(nickname);
+            }
+            // catches an issue with a user disconnect and loggs off that user
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex.Message, System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Namespace + "." + System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "." + System.Reflection.MethodBase.GetCurrentMethod().Name);
+            }
+
+            return;
+        }
+
         public Game CreateGame(Game game)
         {
             Random random = new Random();
             int code = random.Next(100000, 200000);
             game.Code = code;
+            createLobby (code);
             return game;
         }
 
-        public int StartGame()
-        { 
-            return 1;
+        public bool LeaveGame(string userName)
+        {
+            return true;
         }
+
     }
     
     public partial class OcaGameServices : IEmail
