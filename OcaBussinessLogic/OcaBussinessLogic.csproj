@@ -52,7 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authentication.cs" />
+    <Compile Include="Lobby.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportsAdministration.cs" />
     <Compile Include="UsersAdministration.cs" />
   </ItemGroup>
   <ItemGroup>
