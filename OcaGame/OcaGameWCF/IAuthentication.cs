@@ -12,6 +12,9 @@ namespace OcaGameWCF
     {
         [OperationContract]
         User login(string userName, string password);
+
+        [OperationContract]
+        Boolean SignUp(string userName, string password);
     }
 
     [DataContract]
