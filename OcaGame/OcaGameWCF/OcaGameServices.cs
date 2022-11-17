@@ -52,7 +52,7 @@ namespace OcaGameWCF
 
         public void SendMessage(string message, string identifier)
         {
-            var connection = OperationContext.Current.GetCallbackChannel<IChatClient>();
+           // var connection = OperationContext.Current.GetCallbackChannel<IChatClient>();
             foreach (var item in UsersChat)
             {
                 string answer = DateTime.Now.ToShortTimeString();
@@ -108,6 +108,77 @@ namespace OcaGameWCF
             return true;
         }
 
+    }
+    
+    public partial class OcaGameServices : IEmail
+    {
+        public int sendEmail(string receiver)
+        {
+            Random random = new Random();
+            int number = random.Next(1000, 100000);
+
+            MailMessage message = new MailMessage();
+
+            String from = "OcaGameServices@hotmail.com";
+
+            message.From = new MailAddress(from, "OcaGameServices");
+            message.To.Add(receiver);
+            message.Subject = "Correo de verificacion";
+            message.SubjectEncoding = Encoding.UTF8;
+            message.Body = "El codigo de verificacion para el cambio de contraseña es: " + number + " regrese al juego e ingreselo";
+            message.BodyEncoding = Encoding.UTF8;
+            message.IsBodyHtml = true;
+            message.Priority = MailPriority.Normal;
+
+            SmtpClient smtp = new SmtpClient("smtp.office365.com", 587);
+            smtp.Credentials = new NetworkCredential(from, "Ocagameadmin$");
+            smtp.EnableSsl = true;
+
+            try
+            {
+                smtp.Send(message);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No se puede enviar el correo de verificacion, revise el correo ingresado");
+                number = 0;
+            }
+
+            return number;
+        }
+
+        public User GetUserFromEmail(string email)
+        {
+            UsersAdministration ocaGameServices = new UsersAdministration();
+            OcaDataAccess.Users userAccount = ocaGameServices.GetUserFromEmail(email);
+            User user = new User();
+            if (userAccount.Nickname != null)
+            {
+                user.Nickname = userAccount.Nickname;
+                user.IdUser = userAccount.IdUser;
+                user.Name = userAccount.Name;
+                user.Email = userAccount.Email;
+                user.Valid = userAccount.Valid;
+                user.Password = userAccount.Password;
+            }
+            return user;
+        }
+
+        public bool UpdatePassword(User user)
+        {
+
+            OcaDataAccess.Users userData = new OcaDataAccess.Users();
+            bool result = false;
+            UsersAdministration ocaGameServices = new UsersAdministration();
+            userData.Nickname = user.Nickname;
+            userData.IdUser = user.IdUser;
+            userData.Name = user.Name;
+            userData.Email = user.Email;
+            userData.Valid = user.Valid;
+            userData.Password = user.Password;
+            result = ocaGameServices.UpdatePassword(userData);
+            return result;
+        }
     }
 
 }
